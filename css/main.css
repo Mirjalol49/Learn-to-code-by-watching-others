@@ -67,10 +67,6 @@ body {
     flex-grow: 1;
 }
 
-.hero-section {
-    margin: 0;
-}
-
 .wrapper {
     display: flex;
     align-items: center;
@@ -87,6 +83,7 @@ body {
     line-height: 55px;
     letter-spacing: -0.520833px;
     color: #FFFFFF;
+    margin-bottom: 11px;
 }
 
 .hero-start__text {
@@ -94,6 +91,8 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
+    margin-top: 0;
+    width: 450px;
 }
 
 .hero-end {
@@ -166,4 +165,27 @@ body {
     background: #38CC8B;
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
     border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-end__btn:hover {
+    background-color: #77E2B3;
+}
+
+.hero-end__subtitle {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #BAB7D4;
+}
+
+.hero-end__subtitle-link {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 26px;
+    text-align: center;
+    color: #FF7979;
+    text-decoration: none;
 }
